@@ -34,7 +34,7 @@ node bitIslands.js
 ## Testing the application
 [Jest](https://jestjs.io/) was used for the unit-testing. 
 
-Test suite contains 6 tests with matrix of different dimensions. 
+Test suite contains 10 tests with matrix of different dimensions and situations. 
 Feel free to add more tests. 
 
 To run all tests simply:

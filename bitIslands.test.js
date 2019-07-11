@@ -58,7 +58,7 @@ test('5x5 test', () => {
   expect(count).toBe(8)
 })
 
-test('5x5 test 2', () => {
+test('5x5 chessboard 2', () => {
   let count = islands.count([
     [1, 0, 1, 0, 1],
     [0, 1, 0, 1, 0],
@@ -66,6 +66,52 @@ test('5x5 test 2', () => {
     [0, 1, 0, 1, 0],
     [1, 0, 1, 0, 1]
   ])
+})
 
-  expect(count).toBe(13)
+test('5x5 circle test', () => {
+  let count = islands.count([
+    [1, 1, 1, 1, 1],
+    [1, 0, 0, 0, 1],
+    [1, 0, 1, 0, 1],
+    [1, 0, 0, 0, 1],
+    [1, 1, 1, 1, 1]
+  ])
+
+  expect(count).toBe(2)
+})
+
+test('5x5 corners test', () => {
+  let count = islands.count([
+    [1, 1, 0, 1, 1],
+    [1, 0, 0, 0, 1],
+    [0, 0, 1, 0, 0],
+    [1, 0, 0, 0, 1],
+    [1, 1, 0, 1, 1]
+  ])
+
+  expect(count).toBe(5)
+})
+
+test('5x5 diagonals test', () => {
+  let count = islands.count([
+    [1, 0, 0, 0, 1],
+    [0, 1, 0, 1, 0],
+    [0, 0, 1, 0, 0],
+    [0, 1, 0, 1, 0],
+    [1, 0, 0, 0, 1]
+  ])
+
+  expect(count).toBe(9)
+})
+
+test('5x5 materic test', () => {
+  let count = islands.count([
+    [1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1],
+    [1, 1, 1, 1, 1]
+  ])
+
+  expect(count).toBe(1)
 })
