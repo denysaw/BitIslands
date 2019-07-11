@@ -6,17 +6,17 @@ You have bitmap (binar matrix).
 The task is to count all white pixel (1) islands on that map. 
 Parts of island (1-bits) should be connected to each other by sides,
 means vertically and horizontally, but not diagonally. 
-So this matrix:
+So for this matrix:
 ```
 1 0 1 
 1 0 0 
 1 1 1
 ```
-Expected output is:
+expected output is:
 ```
 2
 ```
-Because this matrix has just 2 white pixel islands. 
+Because the matrix has just 2 white pixel islands. 
 But script should successfully work with matrix of any dimension.
 
 ## Requirements
