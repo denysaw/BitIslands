@@ -1,0 +1,10 @@
+{
+  "extends": "standard",
+  "rules": {
+    "no-multi-spaces": [1, {
+      "exceptions": {
+        "VariableDeclaration": true
+      }
+    }]
+  }
+}
