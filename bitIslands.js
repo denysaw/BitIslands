@@ -1,3 +1,6 @@
+/**
+ * @author Denysaw
+ */
 'use strict'
 
 // sample matrix for a quick run

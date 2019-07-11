@@ -12,7 +12,11 @@ So this matrix:
 1 0 0 
 1 1 1
 ```
-Should give only 2 islands. 
+Expected output is:
+```
+2
+```
+Because this matrix has just 2 white pixel islands. 
 But script should successfully work with matrix of any dimension.
 
 ## Requirements
