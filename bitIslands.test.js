@@ -58,7 +58,7 @@ test('5x5 test', () => {
   expect(count).toBe(8)
 })
 
-test('5x5 chessboard 2', () => {
+test('5x5 chessboard', () => {
   let count = islands.count([
     [1, 0, 1, 0, 1],
     [0, 1, 0, 1, 0],
